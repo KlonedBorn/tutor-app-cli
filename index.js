@@ -3,4 +3,12 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
-console.log("Hello,World from javascript!");
+const ConsoleApp = require("./cli/start")
+
+const app = new ConsoleApp({
+    users: [
+
+    ]
+})
+
+app.start()

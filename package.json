@@ -13,6 +13,7 @@
   "author": "Kyle M. King",
   "license": "MIT",
   "dependencies": {
+    "@inquirer/prompts": "^3.0.1",
     "inquirer": "^9.2.9"
   }
 }

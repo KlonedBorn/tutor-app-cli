@@ -1,0 +1,14 @@
+{
+	"Generic Inquirer Select Option": {
+	  "scope": "javascript",
+	  "prefix": "option",
+	  "body": [
+		"{",
+		"\t\"name\": \"${1:name}\",",
+		"\t\"description\": \"${2:Description}\",",
+		"\t\"value\": \"${3:value}\"",
+		"}"
+	  ],
+	  "description": "Inquirer Select Option"
+	}
+  }

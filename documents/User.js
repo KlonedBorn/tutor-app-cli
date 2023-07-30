@@ -4,12 +4,22 @@
 // https://opensource.org/licenses/MIT
 
 class User {
-    constructor(name) {
-        this.name = name
+    constructor(username) {
+        this.username = username
         this.orders = []
         this.sessions = []
+        this.login = () => {}
+    }
+    toString(){
+        return `User(${username})`;
     }
     toJson(){
-        return JSON.stringify(this)
+        return JSON.stringify(this,null,1)
     }
+    
 }
+
+module.exports = User
+
+// const example = new User("Kyle M. King")
+// console.log(example.toJson());

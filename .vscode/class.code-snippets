@@ -1,7 +1,7 @@
 {
 	"Generic JavaScript Class with toString": {
 		"scope": "javascript",
-		"prefix": "js-generic-class",
+		"prefix": "class",
 		"body": [
 			"class ${1:ClassName} {",
 			"\tconstructor(${2:parameters}) {",
