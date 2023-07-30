@@ -4,11 +4,15 @@
   "description": "A command line interface (CLI) demo of data flow within SOSCAI UWI Tutor App for EMCAR",
   "main": "index.js",
   "scripts": {
-    "test": "echo Hello,World!"
+    "test": "echo Hello,World!",
+    "start": "node index.js"
   },
   "keywords": [
     "demo"
   ],
   "author": "Kyle M. King",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.9"
+  }
 }
