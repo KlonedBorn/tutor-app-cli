@@ -1,0 +1,41 @@
+{
+    "username" : {
+        "type": "string"
+    },
+    "about" : {
+        "type":"string",
+        "max-characters":500
+    },
+    "schedule" : {
+        "type" : "array",
+        "item" : {
+            "type":"object",
+            "day-of-the-week" : {
+                "values":["monday","tuesday","wednesday","thursday","friday"],
+                "item" : {
+                    "type":"array",
+                    "item":{
+                        "type":"array",
+                        "items":{
+                            "start":{
+                                "type": "string",
+                                "format": "hh:mm"
+                            },
+                            "end":{
+                                "type": "string",
+                                "format": "hh:mm"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "expertise":{
+        "type":"array",
+        "item":{
+            "type":"string",
+            "values":["Trigonometry","Geometry","Calculus","Algebra","..."]
+        }
+    }
+}

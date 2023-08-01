@@ -16,10 +16,5 @@ class User {
     toJson(){
         return JSON.stringify(this,null,1)
     }
-    
 }
-
 module.exports = User
-
-// const example = new User("Kyle M. King")
-// console.log(example.toJson());

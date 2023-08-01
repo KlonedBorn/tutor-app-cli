@@ -9,8 +9,9 @@ class Student extends User{
     constructor(username) {
         super(username)
     }
-
     toString() {
-        return `Student(${username})`;
+        return `Student(${this.username})`;
     }
 }
+
+module.exports = Student
